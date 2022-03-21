@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: #6ad5ff;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  color: red;
+}
+
+a:visited {
+  color: white;
+}
+
+#wrapper {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.cv {
+  height: 700px;
+}
+
+.reset {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.headerStyle {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: black;
+  color: white;
+}
+
+.myContent {
+  height: 86vh;
+  width: 100vw;
+  display: flex;
+  background-color: #6a7072;
+  align-items: center;
+  justify-content: center;
+}
+
+.midiaContent {
+  height: 86vh;
+  width: 100vw;
+  display: flex;
+  background-color: #6a7072;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footerStyle {
+  text-align: end !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  background: black;
+  color: white;
+}
+
+.bigButton {
+  width: 150px;
+  height: 150px;
+  font-size: xx-large;
+}
+
+.readableFont {
+  font-size: xx-large;
+}
